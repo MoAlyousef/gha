@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: cargo install cargo-generate && cargo generate --git https://github.com/fltk-rs/fl2rust --name proj
+        run: cargo install cargo-generate && cargo generate --git https://github.com/fltk-rs/fl2rust-template --name proj
